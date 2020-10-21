@@ -1,0 +1,23 @@
+.subscription {
+    padding: 20px;
+    background-image: url(../images/shutterstock.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__wrapper {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    &__text {
+        font-size: 28px;
+        max-width: 900px;
+        margin: 28px auto;
+        font-family: "Circe", sans-serif;
+        color: #fff;
+        line-height: 1.2;
+        text-align: center;
+        @media screen and (max-width: 600px) {
+            font-size: 16px;
+        }
+    }
+}

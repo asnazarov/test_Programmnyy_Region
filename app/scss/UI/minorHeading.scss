@@ -1,0 +1,15 @@
+.minorHeading {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Circe", sans-serif;
+    color: $blackText;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 0 10px;
+    letter-spacing: 4px;
+    @media screen and (max-width: 600px) {
+        font-size: 22px;
+    }
+}

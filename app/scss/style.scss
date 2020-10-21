@@ -1,0 +1,28 @@
+@import '_fonts.scss';
+@import '_global.scss';
+@import '_vars.scss';
+@import './UI/logo.scss';
+@import './UI/button.scss';
+@import './UI/minorHeading.scss';
+@import './UI/form.scss';
+@import 'header.scss';
+@import './menu.scss';
+@import './about.scss',
+'subscription.scss',
+'comments.scss',
+'footer.scss';
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: red;
+    display: inline;
+    background-color: rgb(250, 250, 250);
+}

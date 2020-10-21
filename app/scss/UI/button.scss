@@ -1,0 +1,39 @@
+.button {
+    min-width: 350px;
+    display: block;
+    margin: 28px auto;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 50px;
+    font-size: 18px;
+    font-family: "Circe", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    .button:focus {
+        outline: none;
+        border: none;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 16px;
+        padding: 20px 12px;
+        min-width: 285px;
+        max-width: 285px;
+    }
+    &_limeGreen {
+        background-image: -moz-linear-gradient(27deg, rgb(18, 188, 130) 0%, rgb(191, 223, 44) 100%);
+        background-image: -webkit-linear-gradient(27deg, rgb(18, 188, 130) 0%, rgb(191, 223, 44) 100%);
+        background-image: -ms-linear-gradient(27deg, rgb(18, 188, 130) 0%, rgb(191, 223, 44) 100%);
+        background-image: linear-gradient(27deg, rgb(18, 188, 130) 0%, rgb(191, 223, 44) 100%);
+    }
+    &__itemText {
+        text-transform: none;
+        font-weight: 400;
+        padding: 0;
+        margin: 5px 0;
+    }
+}
